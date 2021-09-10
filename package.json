@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "package versioning",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminPretet/BenjaminPretet_3_23082021.git"
+  },
+  "author": "Benjamin Pretet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminPretet/BenjaminPretet_3_23082021/issues"
+  },
+  "homepage": "https://github.com/BenjaminPretet/BenjaminPretet_3_23082021#readme"
+}
