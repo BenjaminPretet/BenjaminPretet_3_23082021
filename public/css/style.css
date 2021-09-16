@@ -25,7 +25,7 @@
 
 /*location*/
 .location {
-  background-color: #f3f3f3;
+  background-color: #ececec;
 }
 
 .text_location {
@@ -36,7 +36,7 @@
 
 .text_location p {
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -48,26 +48,179 @@
 /*location*/
 /*intro*/
 .intro {
-  background-color: #fafafa;
-  height: 150px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  height: 130px;
   text-align: center;
 }
 
 .intro_title {
-  margin: 10px;
-  padding-top: 14px;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
+  margin: 0;
 }
 
 .intro_text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  padding-bottom: 6px;
+  font-weight: 300;
 }
 
-.second_container img {
-  width: 200px;
+.intro_btn {
+  background-color: chartreuse;
+  padding: 12px;
+  border-radius: 25px;
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.functioning {
+  margin: 0px 350px 0px 350px;
+}
+
+.functioning_title {
+  font-family: "Roboto", sans-serif;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.number_step {
+  background-color: #9356DC;
+  color: white;
+  border-radius: 25px;
+  padding: 4px 8px 4px 8px;
+  margin: 0px 10px 0px -30px;
+}
+
+.step_one {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 0px 15px 0px 20px;
+  border-radius: 15px;
+}
+.step_one .step_icon {
+  margin-right: 12px;
+  color: #7e7e7e;
+}
+.step_one .step_text {
+  font-family: "Roboto", sans-serif;
+}
+
+.step_two {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 0px 15px 0px 20px;
+  border-radius: 15px;
+}
+.step_two .step_icon {
+  margin-right: 12px;
+  color: #7e7e7e;
+}
+.step_two .step_text {
+  font-family: "Roboto", sans-serif;
+}
+
+.step_three {
+  display: flex;
+  align-items: center;
+  background-color: #f3f3f3;
+  padding: 0px 15px 0px 20px;
+  border-radius: 15px;
+}
+.step_three .step_icon {
+  margin-right: 12px;
+  color: #7e7e7e;
+}
+.step_three .step_text {
+  font-family: "Roboto", sans-serif;
+}
+
+.second_container {
+  background-color: #f3f3f3;
+  height: 800px;
+}
+
+.second_container_title {
+  font-family: "Roboto", sans-serif;
+  padding: 30px 0px 0px 350px;
+}
+
+.restaurants_list {
+  display: grid;
+  grid-gap: 20px;
+  grid-row: 2;
+  margin: 0px 350px 0px 350px;
+}
+
+.card_one {
+  grid-row: 1;
+  width: 100%;
+  height: 320px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.image_card_one {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card_two {
+  grid-row: 1;
+  width: 100%;
+  height: 320px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.image_card_two {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card_three {
+  width: 100%;
+  height: 320px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.image_card_three {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card_four {
+  width: 100%;
+  height: 320px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.image_card_four {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
