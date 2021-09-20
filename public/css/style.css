@@ -23,6 +23,70 @@
   font-size: 40px;
 }
 
+.footer {
+  background-color: #3e3c3c;
+}
+
+.footer_container {
+  margin: 0px 320px 0px 320px;
+  padding: 15px;
+}
+.footer_container .footer_logo {
+  font-family: "Shrikhand", cursive;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.footer_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.suggest {
+  margin-bottom: 8px;
+}
+.suggest .suggest_list {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.suggest .suggest_list .suggest_icon {
+  padding-right: 17px;
+}
+
+.partner {
+  margin-bottom: 8px;
+}
+.partner .partner_link {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.partner .partner_link .partner_icon {
+  padding-right: 10px;
+}
+
+.legal_notice {
+  margin-bottom: 8px;
+}
+.legal_notice .legal_notice_link {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.contact {
+  margin-bottom: 8px;
+}
+.contact .contact_link {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
 /*location*/
 .location {
   background-color: #ececec;
@@ -77,8 +141,10 @@
   text-decoration: none;
 }
 
+/*intro*/
+/*functioning*/
 .functioning {
-  margin: 0px 350px 0px 350px;
+  margin: 0px 320px 0px 320px;
 }
 
 .functioning_title {
@@ -144,6 +210,8 @@
   font-family: "Roboto", sans-serif;
 }
 
+/*functioning*/
+/*second container*/
 .second_container {
   background-color: #f3f3f3;
   height: 800px;
@@ -151,14 +219,14 @@
 
 .second_container_title {
   font-family: "Roboto", sans-serif;
-  padding: 30px 0px 0px 350px;
+  padding: 30px 0px 0px 320px;
 }
 
 .restaurants_list {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
   grid-row: 2;
-  margin: 0px 350px 0px 350px;
+  margin: 0px 320px 0px 320px;
 }
 
 .card_one {
@@ -170,8 +238,7 @@
   border: 1px solid white;
   border-radius: 15px;
 }
-
-.image_card_one {
+.card_one .image_card_one {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
@@ -186,8 +253,7 @@
   border: 1px solid white;
   border-radius: 15px;
 }
-
-.image_card_two {
+.card_two .image_card_two {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
@@ -201,8 +267,7 @@
   border: 1px solid white;
   border-radius: 15px;
 }
-
-.image_card_three {
+.card_three .image_card_three {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
@@ -216,11 +281,42 @@
   border: 1px solid white;
   border-radius: 15px;
 }
-
-.image_card_four {
+.card_four .image_card_four {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
 }
+
+.badge {
+  background-color: #99E2D0;
+  color: #1b6150;
+  font-family: "Roboto", sans-serif;
+  padding: 8px;
+  float: right;
+}
+
+.card_info {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 16px;
+}
+.card_info .card_text {
+  color: black;
+}
+.card_info .card_title {
+  font-family: "Roboto", sans-serif;
+  margin: 0px 0px 8px 0px;
+}
+.card_info .card_location {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.card_info .card_btn {
+  padding-left: 130px;
+  font-size: 25px;
+}
+
+/*second container*/
 
 /*# sourceMappingURL=style.css.map */

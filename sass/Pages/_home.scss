@@ -44,15 +44,17 @@
     background-color: chartreuse;
     padding: 12px;
     border-radius: 25px;
-    background-image: linear-gradient( 0deg, #9356DC , #FF79DA);
+    background-image: linear-gradient( 0deg, $color-primary , $color-secondary);
     color: white;
     font-family: $roboto;
     font-weight: 500;
     text-decoration: none;
 }
+/*intro*/
 
+/*functioning*/
 .functioning {
-    margin: 0px 350px 0px 350px;
+    margin: 0px 320px 0px 320px;
 
 }
 
@@ -67,7 +69,7 @@
 }
 
 .number_step {
-    background-color: #9356DC;
+    background-color: $color-primary;
     color: white;
     border-radius: 25px;
     padding: 4px 8px 4px 8px;
@@ -90,7 +92,6 @@
         font-family: $roboto;
     }
 }
-
 
 .step_two {
     display: flex;
@@ -125,7 +126,9 @@
         font-family: $roboto;
     }
 }
+/*functioning*/
 
+/*second container*/
 .second_container {
     background-color: #f3f3f3;
     height: 800px;
@@ -133,14 +136,14 @@
 
 .second_container_title {
     font-family: $roboto;
-    padding: 30px 0px 0px 350px;
+    padding: 30px 0px 0px 320px;
 }
 
 .restaurants_list {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-row: 2;
-    margin: 0px 350px 0px 350px;
+    margin: 0px 320px 0px 320px;
 }
 
 .card_one {
@@ -151,12 +154,12 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 15px;
-}
 
-.image_card_one {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
+    .image_card_one {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+    }
 }
 
 .card_two {
@@ -167,12 +170,12 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 15px;
-}
 
-.image_card_two {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
+    .image_card_two {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+    }
 }
 
 .card_three {
@@ -182,12 +185,12 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 15px;
-}
 
-.image_card_three {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
+    .image_card_three {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+    }
 }
 
 .card_four {
@@ -197,10 +200,47 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 15px;
+
+    .image_card_four {
+        width: 100%;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+    }
 }
 
-.image_card_four {
-    width: 100%;
-    height: 200px;
-    border-radius: 15px 15px 0px 0px;
+.badge {
+    background-color: $color-tertiary;
+    color: #1b6150;
+    font-family: $roboto;
+    padding: 8px;
+    float: right;
 }
+
+.card_info {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 16px;
+
+    .card_text {
+        color: black;
+
+        
+    }
+    .card_title {
+        font-family: $roboto;
+        margin: 0px 0px 8px 0px;
+    }
+    
+    .card_location {
+        font-family: $roboto;
+        margin: 0;
+    }
+    
+    .card_btn {
+        padding-left: 130px;
+        font-size: 25px;
+    }
+}
+/*second container*/
+
