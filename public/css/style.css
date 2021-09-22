@@ -386,7 +386,7 @@ body {
 .sub_menus {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 2px;
 }
 
 .submenu_title {
@@ -395,79 +395,7 @@ body {
   padding-left: 14px;
 }
 
-.contained_submenu_1 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_2 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_3 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_4 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_5 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_6 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_7 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_8 {
-  display: flex;
-  align-items: center;
-  background-color: white;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 8px;
-}
-
-.contained_submenu_9 {
+.contained_submenu {
   display: flex;
   align-items: center;
   background-color: white;
@@ -482,9 +410,11 @@ body {
 .menu_item .menu_item_title {
   margin: 0;
   padding-bottom: 6px;
+  font-size: 16px;
 }
 .menu_item .menu_item_description {
   margin: 0;
+  font-size: 12px;
 }
 
 .menu_item_price {
