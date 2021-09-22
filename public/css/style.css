@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-.body {
+body {
   margin: 0;
 }
 
@@ -11,7 +11,33 @@
   text-decoration: none;
 }
 
+.menu_btn {
+  background-color: #f3f3f3;
+  border: none;
+  font-size: 30px;
+}
+
+.card_btn {
+  font-size: 25px;
+}
+
+.command_btn {
+  background-color: chartreuse;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   margin-bottom: 2px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
@@ -21,6 +47,14 @@
   text-align: center;
   font-family: "Shrikhand", cursive;
   font-size: 40px;
+}
+.header .back_arrow {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 50px;
+  color: black;
+  font-size: 24px;
 }
 
 .footer {
@@ -33,7 +67,7 @@
 }
 .footer_container .footer_logo {
   font-family: "Shrikhand", cursive;
-  font-size: 20px;
+  font-size: 24px;
   color: white;
   margin: 0;
   padding-bottom: 10px;
@@ -237,11 +271,13 @@
   background-color: white;
   border: 1px solid white;
   border-radius: 15px;
+  position: relative;
 }
-.card_one .image_card_one {
+.card_one .image_card {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 .card_two {
@@ -252,11 +288,13 @@
   background-color: white;
   border: 1px solid white;
   border-radius: 15px;
+  position: relative;
 }
-.card_two .image_card_two {
+.card_two .image_card {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 .card_three {
@@ -267,10 +305,11 @@
   border: 1px solid white;
   border-radius: 15px;
 }
-.card_three .image_card_three {
+.card_three .image_card {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 .card_four {
@@ -281,10 +320,11 @@
   border: 1px solid white;
   border-radius: 15px;
 }
-.card_four .image_card_four {
+.card_four .image_card {
   width: 100%;
   height: 200px;
   border-radius: 15px 15px 0px 0px;
+  object-fit: cover;
 }
 
 .badge {
@@ -292,11 +332,14 @@
   color: #1b6150;
   font-family: "Roboto", sans-serif;
   padding: 8px;
-  float: right;
+  position: absolute;
+  top: 12px;
+  right: 12px;
 }
 
 .card_info {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 80px;
   padding: 16px;
@@ -312,11 +355,146 @@
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
-.card_info .card_btn {
-  padding-left: 130px;
-  font-size: 25px;
-}
 
 /*second container*/
+.image_menu {
+  max-width: 100%;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.menu_container {
+  border: 1px solid black;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+  margin-top: -60px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px 0px 16px;
+  font-family: "Shrikhand", cursive;
+}
+
+.sub_menus {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.submenu_title {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 14px;
+}
+
+.contained_submenu_1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_2 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_3 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_4 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_5 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_6 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_7 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_8 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.contained_submenu_9 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px;
+}
+
+.menu_item {
+  padding: 10px;
+}
+.menu_item .menu_item_title {
+  margin: 0;
+  padding-bottom: 6px;
+}
+.menu_item .menu_item_description {
+  margin: 0;
+}
+
+.menu_item_price {
+  padding-left: 100px;
+}
+
+.bottom_btn {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */
