@@ -17,8 +17,20 @@ body {
   font-size: 30px;
 }
 
-.card_btn {
-  font-size: 25px;
+.btn_anim {
+  font-size: 30px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px black;
+  opacity: 1;
+  color: transparent;
+  background-image: linear-gradient(to top, transparent 50%, #9356DC, #FF79DA);
+  transition: background-position ease-out 0.4s;
+  background-size: 1% 200%;
+}
+
+.anim :hover {
+  background-position: 0 -100%;
 }
 
 .command_btn {
@@ -32,6 +44,31 @@ body {
   font-size: 18px;
   font-weight: 500;
   text-decoration: none;
+}
+
+/*confirmation_btn*/
+.menu_item_confirmation {
+  background-color: #99E2D0;
+  margin: -16px -20px -16px 16px;
+  width: 40px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  width: 24px;
+  height: 24px;
+}
+
+.confirmation_icon {
+  color: #99E2D0;
 }
 
 .header {
@@ -51,10 +88,13 @@ body {
 .header .back_arrow {
   display: flex;
   align-items: center;
-  position: absolute;
-  left: 50px;
+  position: relative;
+  left: -600px;
   color: black;
   font-size: 24px;
+}
+.header .back_link {
+  text-decoration: none;
 }
 
 .footer {
@@ -410,11 +450,11 @@ body {
 .menu_item .menu_item_title {
   margin: 0;
   padding-bottom: 6px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .menu_item .menu_item_description {
   margin: 0;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .menu_item_price {

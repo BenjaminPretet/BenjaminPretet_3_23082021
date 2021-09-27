@@ -12,8 +12,20 @@
     
 }
 
-.card_btn {
-    font-size: 25px;
+.btn_anim{
+    font-size: 30px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 3px black;
+    opacity: 1;
+    color: transparent;
+    background-image: linear-gradient(to top, transparent 50%,$color-primary, $color-secondary);
+    transition: background-position ease-out 0.4s;
+    background-size: 1% 200%;
+}
+
+.anim :hover {
+    background-position: 0 -100%;
 }
 
 .command_btn {
@@ -27,4 +39,30 @@
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
+}
+
+/*confirmation_btn*/
+
+.menu_item_confirmation {
+    background-color: $color-tertiary;
+    margin: -16px -20px -16px 16px;
+    width: 40px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    width: 24px;
+    height: 24px;
+}
+
+.confirmation_icon {
+    color: $color-tertiary;
 }
