@@ -83,16 +83,16 @@ body {
   font-family: "Shrikhand", cursive;
   font-size: 40px;
 }
-.header .back_arrow {
+.header .back_link {
+  text-decoration: none;
+}
+.header .back_link .back_arrow {
   display: flex;
   align-items: center;
   position: relative;
   left: -600px;
   color: black;
   font-size: 24px;
-}
-.header .back_link {
-  text-decoration: none;
 }
 
 .footer {
