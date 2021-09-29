@@ -44,9 +44,14 @@
     background-color: white;
     border-radius: 15px;
     margin: 10px;
-    padding: 8px;
+    overflow: hidden;
 }
-
+.submenu_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
 .menu_item {
     padding: 10px;
 
