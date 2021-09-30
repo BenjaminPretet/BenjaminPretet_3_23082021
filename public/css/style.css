@@ -69,6 +69,7 @@ body {
   color: #99E2D0;
 }
 
+/*Desktop*/
 .header {
   display: flex;
   justify-content: center;
@@ -83,10 +84,7 @@ body {
   font-family: "Shrikhand", cursive;
   font-size: 40px;
 }
-.header .back_link {
-  text-decoration: none;
-}
-.header .back_link .back_arrow {
+.header .back_arrow {
   display: flex;
   align-items: center;
   position: relative;
@@ -94,7 +92,70 @@ body {
   color: black;
   font-size: 24px;
 }
+.header .back_link {
+  text-decoration: none;
+}
 
+/*Desktop*/
+/*Mobile*/
+@media screen and (max-width: 424px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  }
+  .header .header_logo {
+    margin: 0;
+    text-align: center;
+    font-family: "Shrikhand", cursive;
+    font-size: 40px;
+  }
+  .header .back_arrow {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -60px;
+    color: black;
+    font-size: 24px;
+  }
+  .header .back_link {
+    text-decoration: none;
+  }
+}
+/*Mobile*/
+/*Tablette*/
+@media screen and (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 2px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  }
+  .header .header_logo {
+    margin: 0;
+    text-align: center;
+    font-family: "Shrikhand", cursive;
+    font-size: 40px;
+  }
+  .header .back_arrow {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -200px;
+    color: black;
+    font-size: 24px;
+  }
+  .header .back_link {
+    text-decoration: none;
+  }
+}
+/*Tablette*/
+/*Desktop*/
 .footer {
   background-color: #3e3c3c;
 }
@@ -125,7 +186,7 @@ body {
   color: white;
   text-decoration: none;
 }
-.suggest .suggest_list .suggest_icon {
+.suggest .suggest_list .footer_icon {
   padding-right: 17px;
 }
 
@@ -137,7 +198,7 @@ body {
   color: white;
   text-decoration: none;
 }
-.partner .partner_link .partner_icon {
+.partner .partner_link .footer_icon {
   padding-right: 10px;
 }
 
@@ -159,6 +220,141 @@ body {
   text-decoration: none;
 }
 
+/*Desktop*/
+/*Mobile*/
+@media screen and (max-width: 424px) {
+  .footer {
+    background-color: #3e3c3c;
+  }
+
+  .footer_container {
+    margin-left: 10px;
+    padding: 15px;
+  }
+  .footer_container .footer_logo {
+    font-family: "Shrikhand", cursive;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .footer_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .suggest {
+    margin-bottom: 8px;
+  }
+  .suggest .suggest_list {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  .suggest .suggest_list .footer_icon {
+    padding-right: 17px;
+  }
+
+  .partner {
+    margin-bottom: 8px;
+  }
+  .partner .partner_link {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  .partner .partner_link .footer_icon {
+    padding-right: 10px;
+  }
+
+  .legal_notice {
+    margin-bottom: 8px;
+  }
+  .legal_notice .legal_notice_link {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  .contact {
+    margin-bottom: 8px;
+  }
+  .contact .contact_link {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+}
+/*Mobile*/
+/*Tablette*/
+@media screen and (max-width: 767px) {
+  .footer {
+    background-color: #3e3c3c;
+  }
+
+  .footer_container {
+    margin-left: 30px;
+    padding: 15px;
+  }
+  .footer_container .footer_logo {
+    font-family: "Shrikhand", cursive;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  .footer_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .suggest {
+    margin-bottom: 8px;
+  }
+  .suggest .suggest_list {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  .suggest .suggest_list .footer_icon {
+    padding-right: 17px;
+  }
+
+  .partner {
+    margin-bottom: 8px;
+  }
+  .partner .partner_link {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  .partner .partner_link .footer_icon {
+    padding-right: 10px;
+  }
+
+  .legal_notice {
+    margin-bottom: 8px;
+  }
+  .legal_notice .legal_notice_link {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  .contact {
+    margin-bottom: 8px;
+  }
+  .contact .contact_link {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+}
+/*Tablette*/
 /*location*/
 .location {
   background-color: #ececec;
@@ -488,5 +684,206 @@ body {
 }
 
 /* menu box*/
+/*Mobile*/
+@media screen and (max-width: 424px) {
+  /*top image*/
+  .image_menu {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  /*top image*/
+  /*box menu*/
+  .menu_container {
+    border: 1px solid black;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 25px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    margin-top: -60px;
+  }
+
+  /*box menu*/
+  /*menu title*/
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px 0px 16px;
+    font-family: "Shrikhand", cursive;
+  }
+
+  /*menu title*/
+  /*submenu*/
+  .sub_menus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+
+  .submenu_title {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 14px;
+  }
+
+  .contained_submenu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .submenu_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .menu_item {
+    padding: 10px;
+  }
+  .menu_item .menu_item_title {
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+  .menu_item .menu_item_description {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .menu_item_price {
+    font-weight: 600;
+    padding: 30px 8px 0px 0px;
+  }
+
+  .menu_item_confirmation {
+    margin-right: -70px;
+  }
+
+  .menu_item_confirmation:hover {
+    margin-left: -70px;
+  }
+
+  /*submenu*/
+  /*bottom button*/
+  .bottom_btn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  /*bottom button*/
+  /*menu box*/
+}
+/*Mobile*/
+/*Tablette*/
+@media screen and (max-width: 767px) {
+  /*top image*/
+  .image_menu {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  /*top image*/
+  /*box menu*/
+  .menu_container {
+    border: 1px solid black;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 25px;
+    font-family: "Roboto", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    margin: -60px 60px 0px 60px;
+  }
+
+  /*box menu*/
+  /*menu title*/
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px 0px 16px;
+    font-family: "Shrikhand", cursive;
+  }
+
+  /*menu title*/
+  /*submenu*/
+  .sub_menus {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submenu_title {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 14px;
+  }
+
+  .contained_submenu {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .submenu_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .menu_item {
+    padding: 10px;
+  }
+  .menu_item .menu_item_title {
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 16px;
+  }
+  .menu_item .menu_item_description {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .menu_item_price {
+    font-weight: 600;
+    padding: 30px 8px 0px 0px;
+  }
+
+  .menu_item_confirmation {
+    margin-right: -70px;
+  }
+
+  .menu_item_confirmation:hover {
+    margin-left: -70px;
+  }
+
+  /*submenu*/
+  /*bottom button*/
+  .bottom_btn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  /*bottom button*/
+  /*menu box*/
+}
+/*Tablette*/
 
 /*# sourceMappingURL=style.css.map */
