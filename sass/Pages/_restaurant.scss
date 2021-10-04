@@ -78,10 +78,9 @@
     margin-right: -70px;
 }
 
-.menu_item_confirmation:hover {
-    margin-left: -70px;
+.contained_submenu:hover .menu_item_confirmation {
+    margin-right: 0px;
 }
-
 /*bottom button*/
 .bottom_btn {
     display: flex;
