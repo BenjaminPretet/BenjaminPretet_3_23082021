@@ -71,84 +71,8 @@
 }
 /*Desktop*/
 
-/*Mobile*/
-@media screen and (max-width: 424px)
-{
-    .footer{
-        background-color: #3e3c3c;
-    
-    }
-    
-    .footer_container {
-        margin-left: 10px;
-        padding: 15px;
-    
-        .footer_logo {
-            font-family: $shrikhand;
-            font-size: 24px;
-            color: white;
-            margin: 0;
-            padding-bottom: 10px;
-        }
-    }
-    
-    .footer_list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .suggest {
-        margin-bottom: 8px;
-    
-        .suggest_list {
-            font-family: $roboto;
-            color: white;
-            text-decoration: none;
-        
-            .footer_icon {
-                padding-right: 17px;
-            }
-        }
-    }
-    
-    .partner {
-        margin-bottom: 8px;
-    
-        .partner_link {
-            font-family: $roboto;
-            color: white;
-            text-decoration: none;
-        
-            .footer_icon {
-                padding-right: 10px;
-            }
-        }
-    }
-    
-    .legal_notice {
-        margin-bottom: 8px;
-    
-        .legal_notice_link {
-            font-family: $roboto;
-            color: white;
-            text-decoration: none;
-        }
-    }
-    
-    .contact {
-        margin-bottom: 8px;
-    
-        .contact_link {
-            font-family: $roboto;
-            color: white;
-            text-decoration: none;
-        }
-    }
-}
-/*Mobile*/
-
 /*Tablette*/
-@media screen and (max-width: 767px)
+@media screen and (max-width: 768px)
 {
     .footer{
         background-color: #3e3c3c;
@@ -222,3 +146,79 @@
     }
 }
 /*Tablette*/
+
+/*Mobile*/
+@media screen and (max-width: 425px)
+{
+    .footer{
+        background-color: #3e3c3c;
+    
+    }
+    
+    .footer_container {
+        margin-left: 10px;
+        padding: 15px;
+    
+        .footer_logo {
+            font-family: $shrikhand;
+            font-size: 24px;
+            color: white;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+    }
+    
+    .footer_list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .suggest {
+        margin-bottom: 8px;
+    
+        .suggest_list {
+            font-family: $roboto;
+            color: white;
+            text-decoration: none;
+        
+            .footer_icon {
+                padding-right: 17px;
+            }
+        }
+    }
+    
+    .partner {
+        margin-bottom: 8px;
+    
+        .partner_link {
+            font-family: $roboto;
+            color: white;
+            text-decoration: none;
+        
+            .footer_icon {
+                padding-right: 10px;
+            }
+        }
+    }
+    
+    .legal_notice {
+        margin-bottom: 8px;
+    
+        .legal_notice_link {
+            font-family: $roboto;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    
+    .contact {
+        margin-bottom: 8px;
+    
+        .contact_link {
+            font-family: $roboto;
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+/*Mobile*/
