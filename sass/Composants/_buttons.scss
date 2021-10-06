@@ -1,10 +1,13 @@
+/*intro button home page*/
 .intro_btn {
     background-color: chartreuse;
     padding: 12px;
     border-radius: 25px;
     text-decoration: none;
 }
+/*intro button*/
 
+/*heart button*/
 .heart_btn {
     border: none;
     font-size: 30px;
@@ -27,7 +30,9 @@
     transition: all 4s ease-in-out;
     
 }
+/*heart button*/
 
+/*command button restaurant page*/
 .command_btn {
     background-color: chartreuse;
     padding: 14px;
@@ -40,16 +45,18 @@
     font-weight: 500;
     text-decoration: none;
 }
+/*command button restaurant page*/
 
-/*confirmation_btn*/
-
+/*confirmation button restaurant page*/
 .menu_item_confirmation {
     background-color: $color-tertiary;
     width: 70px;
     height: 70px;
+    margin-right: -70px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: .5s;
 }
 
 .scroll_icon {
@@ -60,8 +67,15 @@
     border-radius: 25px;
     width: 24px;
     height: 24px;
+    transform: rotate(180deg);
+    transition-duration: .5s;
 }
 
 .confirmation_icon {
     color: $color-tertiary;
 }
+
+.contained_submenu:hover .scroll_icon {
+    transform: rotate(0);
+}
+/*confirmation button restaurant page*/
