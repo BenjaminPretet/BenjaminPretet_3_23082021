@@ -36,8 +36,19 @@
 
 .submenu_title {
     text-transform: uppercase;
+    position: relative;
     font-weight: 500;
     padding-left: 14px;
+}
+
+.submenu_title::after {
+    content: "";
+    position: absolute;
+    background-color: $color-tertiary;
+    border-bottom: solid 3px $color-tertiary;
+    width: 40px;
+    bottom: -6px;
+    left: 14px;
 }
 
 .contained_submenu {
