@@ -1,11 +1,4 @@
 .loader {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
     border: 16px solid #bdc3c7;
     width: 120px;
     height: 120px;
@@ -14,10 +7,10 @@
     border-left-color: #99E2D0;
     border-right-color: #99E2D0;
     border-radius: 50%;
-    animation: chargeur 5s linear infinite;
+    animation: spinner 5s linear infinite;
 }
 
-@keyframes chargeur {
+@keyframes spinner {
     0% {
         transform: rotate(0deg) scale(1);
     }
