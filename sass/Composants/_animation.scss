@@ -1,3 +1,4 @@
+/*loader*/
 .loader {
     border: 16px solid #bdc3c7;
     width: 120px;
@@ -21,5 +22,17 @@
 
     100% {
         transform: rotate(720deg) scale(1);
+    }
+}
+/*loader*/
+
+/*appearance*/
+@keyframes appearance_submenu {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
     }
 }
