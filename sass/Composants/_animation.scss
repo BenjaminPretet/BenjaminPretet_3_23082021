@@ -27,6 +27,14 @@
 /*loader*/
 
 /*appearance*/
+@for $i from 1 through 10 {
+
+    .anim_delay_#{$i}{
+        animation-delay: $i * .1s;
+    }
+
+}
+
 @keyframes appearance_submenu {
     0% {
         transform: scale(0);
