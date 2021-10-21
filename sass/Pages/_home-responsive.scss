@@ -1,3 +1,12 @@
+/*Laptop*/
+@media screen and (max-width: 1024px)
+{
+    .functioning {
+        margin: 0px 100px 0px 100px;
+    }
+}
+/*Laptop*/
+
 /*Tablette*/
 @media screen and (max-width: 768px)
 {
@@ -58,7 +67,6 @@
 {
     .intro {
         padding: 16px;
-        height: 220px;
 
         .intro_title {
             margin: 0px 20px 14px 20px;
@@ -106,3 +114,13 @@
     }
 }
 /*Mobile*/
+
+/*Mobile S*/
+@media screen and (max-width: 320px)
+{
+    .intro {
+        height: 300px;
+    }
+}
+
+/*Mobile S*/

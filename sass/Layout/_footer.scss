@@ -5,7 +5,7 @@
 }
 
 .footer_container {
-    margin: 0px 180px 0px 180px;
+    margin: 0px 180px 0px 110px;
     padding: 15px;
 
     .footer_logo {
@@ -71,11 +71,20 @@
 }
 /*Desktop*/
 
+/*Laptop*/
+@media screen and (max-width: 1024px)
+{
+    .footer_container {
+        margin: 0px 0px 0px 90px;
+    }
+}
+/*Laptop*/
+
 /*Tablette*/
 @media screen and (max-width: 768px)
 {
     .footer_container {
-        margin: 0px 0px 0px 30px;
+        margin: 0px 0px 0px 70px;
     }
 }
 /*Tablette*/
